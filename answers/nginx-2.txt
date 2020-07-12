@@ -1,0 +1,3 @@
+Node affinity in the manifest requires label role=app.
+A node can be labeled to make this schedulable, ie:
+  kubectl label node <node_name> role=app
